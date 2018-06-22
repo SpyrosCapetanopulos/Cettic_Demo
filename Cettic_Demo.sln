@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio for Mac
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cettic_Demo", "Assembly-CSharp.csproj", "{579301CB-96FD-A025-33B2-4556225F690E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cettic_Demo", "Assembly-CSharp-Editor.csproj", "{D41047DE-D69C-478A-ED02-030FE95F1C4A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{579301CB-96FD-A025-33B2-4556225F690E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{579301CB-96FD-A025-33B2-4556225F690E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{579301CB-96FD-A025-33B2-4556225F690E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{579301CB-96FD-A025-33B2-4556225F690E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D41047DE-D69C-478A-ED02-030FE95F1C4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D41047DE-D69C-478A-ED02-030FE95F1C4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D41047DE-D69C-478A-ED02-030FE95F1C4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D41047DE-D69C-478A-ED02-030FE95F1C4A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

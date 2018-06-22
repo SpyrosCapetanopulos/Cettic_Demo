@@ -26,18 +26,24 @@ public class login : MonoBehaviour {
         StartCoroutine(LoginToBD());
     }
 
-    string getUser(){
+    IEnumerator getUser(){
         string usernames = string.Empty;
         WWWForm form = new WWWForm();
         form.AddField("usernamePost", username.text);
         WWW www = new WWW(getUserURL, form);
-        //yield return www;
+        yield return www;
         usernames = www.text;
-        return usernames;
+
+
+        //return usernames;
     }
+
+
+
     void LoadNextLevel()
     {
-        PlayerPrefs.SetString("PlayerName", getUser());
+        var nombre = getUser();
+        PlayerPrefs.SetString("PlayerName", nombre.ToString());
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 

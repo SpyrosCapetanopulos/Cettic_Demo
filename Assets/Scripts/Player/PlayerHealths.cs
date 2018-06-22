@@ -89,7 +89,7 @@ public class PlayerHealths : MonoBehaviour
 
 
         GameOverPanel.SetActive(true);
-        RestartLevel();
+
 
     }
 
